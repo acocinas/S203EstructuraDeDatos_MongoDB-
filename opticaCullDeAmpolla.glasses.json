@@ -1,0 +1,51 @@
+{
+	"_id": {
+		"$oid": "67cc82d0c7eb55bb7e51e944"
+	},
+	"brand": "Ray-Ban",
+	"frame_type": "metálica",
+	"frame_color": "negro",
+	"lens_color": "transparent",
+	"prescription": {
+		"left": 1.75,
+		"right": 2
+	},
+	"price": 127,
+	"supplier": {
+		"name": "Home Optica",
+		"address": {
+			"street": "Bellas Vistas",
+			"number": "11",
+			"city": "Barcelona",
+			"zip_code": "08001",
+			"country": "España"
+		},
+		"phone": "93 123 45 67",
+		"fax": "93 890 12 34",
+		"nif": "B09847392"
+	},
+	"sale_info": {
+		"sold": true,
+		"sale_date": {
+			"$date": "2023-10-01T10:30:00Z"
+		},
+		"employee": {
+			"name": "Beatriz López"
+		},
+		"customer": {
+			"name": "María Guerrero",
+			"address": {
+				"street": "Calle de Tamayo y Baus",
+				"number": "4",
+				"city": "Madrid",
+				"zip_code": "28004",
+				"country": "España"
+			},
+			"phone": "91 310 15 00",
+			"email": "maria@cdn.es",
+			"registration_date": {
+				"$date": "2017-02-17T15:30:00Z"
+			}
+		}
+	}
+}
