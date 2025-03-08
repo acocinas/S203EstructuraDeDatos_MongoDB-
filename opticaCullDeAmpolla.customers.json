@@ -1,1 +1,48 @@
-{"_id":{"$oid":"67cb1c2e6ad972f8f651e944"},"address":{"street":"Calle de Tamayo y Baus ","number":"4","city":"Madrid","zip_code":"28004","country":"España"},"email":"maria@cdn.es","name":"María Guerrero","phone":"91 310 15 00","registration_date":{"$date":"2017-02-17T15:30:00.000Z"},"last_purchase":{"date":"2018-09-13T11:45:27.000Z","glasses":{"brand":"Mikasa","frame_type":"floating","color_frame":"silver","prescription":{"right":"1.75","left":"2.0"},"lens_color":"transparent","price":"127.0"},"employee":{"name":"Beatriz López"},"supplier":{"name":"Home Optica","address":{"street":"Bellas Vistas","number":"11","city":"Barcelona","zip_code":8001,"country":"Spain"},"phone":"93 123 45 67","fax":"93 890 12 34","nif":"B09847392"}}}
+{
+	"_id": {
+		"$oid": "67cb1c2e6ad972f8f651e944"
+	},
+	"address": {
+		"street": "Calle de Tamayo y Baus ",
+		"number": "4",
+		"city": "Madrid",
+		"zip_code": "28004",
+		"country": "España"
+	},
+	"email": "maria@cdn.es",
+	"name": "María Guerrero",
+	"phone": "91 310 15 00",
+	"registration_date": {
+		"$date": "2017-02-17T15:30:00.000Z"
+	},
+	"last_purchase": {
+		"date": "2018-09-13T11:45:27.000Z",
+		"glasses": {
+			"brand": "Mikasa",
+			"frame_type": "floating",
+			"color_frame": "silver",
+			"prescription": {
+				"right": "1.75",
+				"left": "2.0"
+			},
+			"lens_color": "transparent",
+			"price": "127.0"
+		},
+		"employee": {
+			"name": "Beatriz López"
+		},
+		"supplier": {
+			"name": "Home Optica",
+			"address": {
+				"street": "Bellas Vistas",
+				"number": "11",
+				"city": "Barcelona",
+				"zip_code": 8001,
+				"country": "Spain"
+			},
+			"phone": "93 123 45 67",
+			"fax": "93 890 12 34",
+			"nif": "B09847392"
+		}
+	}
+}
